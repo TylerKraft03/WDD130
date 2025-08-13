@@ -1,8 +1,8 @@
 :root {
-    --primary-color: E7ECEF;
-    --secondary-color: A3CEF1;
-    --accent1-color: E39317;
-    --accent2-color: 8B8C89;
+    --primary-color: #6C8B9D;
+    --secondary-color: #A3CEF1;
+    --accent1-color: #E39317;
+    --accent2-color: #8B8C89;
     --heading-font: "Quicksand", sans-serif;
     --body-font: "Bricolage Grotesque", sans-serif;
 }
@@ -49,7 +49,7 @@ h1 {
     color: #fff;
 }
 article {
-    border: 5px solid;
+    border: 5px solid var(--primary-color);
 }
 .hero article img {
     float: right;
