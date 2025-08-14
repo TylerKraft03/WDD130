@@ -14,6 +14,12 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header, main, footer {
     max-width: 1200px;
@@ -167,6 +173,7 @@ button:hover {
 }
 .site-info-grid .grid-item {
     background-color: var(--primary-color);
+    border: 5px solid var(--accent1-color);
     color: white;
     padding: 20px;
     border-radius: 10px;
