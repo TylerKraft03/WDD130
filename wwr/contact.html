@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Tyler Kraft's personal website for WDD 130 class."/>
+    <meta name="author" content="Tyler Kraft"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css"/>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/rapids.jpeg" alt="Rafting Adventure"/>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <h2 class="title">Contact Us</h2>
+    <main>
+        <section>
+          <h2>Send Us a Message</h2>
+            <!-- company name, phone number, email  -->
+            <p>Company Name: Rafting Adventures</p>
+            <p>Phone Number: (123) 456-7890</p>
+            <p>Email: <a href="mailto:">testtest</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6630.01715128755!2d-117.92154912363799!3d33.812091773248234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sus!4v1755132918447!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2>Our Team</h2>
+            <div class="team">
+            <figure>
+            <img src="images/profile.JPG" alt="Tyler" width="300"/>
+            <figcaption>Tyler: CEO</figcaption>
+            </figure>
+            <figure>
+            <img src="images/steve.jpg" alt="Team Member" width="300"/>
+            <figcaption>Steve: Marketing Director</figcaption>
+            </figure>
+            <figure>
+            <img src="images/john.jpg" alt="Team Member" width="300"/>
+            <figcaption>John: Operations Manager</figcaption>
+            </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="purpose">Type of Message:</label>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                    <label for="inquiry"> General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation"> Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion"> Website Suggestion</label>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Subscribe to our newsletter
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+            <footer>
+        <nav class="socialmedia">
+        <p>©2025 | Rafting Adventures | Tyler Kraft</p>
+        
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook-icon.svg" alt="Facebook Icon" width="100"/>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter-icon.svg" alt="Twitter Icon" width="100"/>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram-icon.svg" alt="Instagram Icon" width="100"/>
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
